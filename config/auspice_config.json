@@ -1,0 +1,52 @@
+{
+  "title": "Nextstrain build for SARS-CoV-2 virus",
+  "maintainers": [
+    {"name": "Alexey Selivanov", "url": ""}
+  ],
+
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "author",
+      "title": "Author",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "city",
+    "country",
+    "region"
+  ],
+  "panels": [
+     "tree",
+     "map"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "city",
+    "country",
+    "region",
+    "author"
+  ]
+}
