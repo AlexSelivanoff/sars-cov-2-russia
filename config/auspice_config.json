@@ -46,7 +46,6 @@
   "filters": [
     "city",
     "country",
-    "region",
-    "author"
+    "region"
   ]
 }
